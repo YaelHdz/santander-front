@@ -1,22 +1,20 @@
+body {
+  background-color: #f49e47;
+  background-image: url("https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png");
+}
+
 h1 {
-  color: blue;
-  font-size: 100px;
+  color: #46484c;
   text-align: center;
 }
 
-h2 {
-  color: #46484c;
-}
-
-p b {
+p {
   color: #8b8b8bcc;
-}
-
-body {
-  background-color: #fffbf7;
+  font-family: verdana;
+  font-size: 20px;
 }
 
 button {
+  color: #fff;
   background-color: #025157;
-  color: #fffbf7;
 }
