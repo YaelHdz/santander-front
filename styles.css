@@ -26,6 +26,14 @@ button {
   line-height: 45px;
 }
 
+.fixed-header {
+  position: fixed;
+  background-color: #fffbf7;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 li {
   display: inline;
   margin-left: 25px;
@@ -81,13 +89,22 @@ li {
 /*Publicidad y video*/
 
 .t_publicitario {
-  margin-top: 50px;
   display: flex;
+  width: 70%;
+  margin: 100px auto;
   align-items: center;
 }
 
 .column_p {
-  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.column_p img {
+  width: 130px;
+  margin-top: 10px;
 }
 
 .enc_p {
