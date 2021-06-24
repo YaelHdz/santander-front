@@ -131,11 +131,25 @@ li {
 
   /* Reto 3.2 */
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  background-color: #025157;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .feature-art{
-  background-color: lightcyan;
-  margin: 10px;
-  width: 40%;
-  height: 50px;
+  background-color: white;
+  margin: 25px;
+}
+
+.feature-art img {
+  margin: 30px 30px 10px 30px;
+  max-width: 50px;
+  height: auto;
+}
+
+.feature-text {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 0;
 }
