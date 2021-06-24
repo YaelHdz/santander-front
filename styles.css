@@ -34,6 +34,11 @@ button {
   right: 0;
 }
 
+main {
+  margin-top: 285px;
+  text-align: center;
+}
+
 li {
   display: inline;
   margin-left: 25px;
@@ -110,4 +115,27 @@ li {
 .enc_p {
   font-family: sans-serif;
   color: #025157;
+}
+
+/* features */
+.features {
+  display: grid;
+  /* grid-template-columns: 300px 300px; */
+  /* grid-template-columns: repeat(2, 300px); */
+  /* grid-template-columns: 500px 1fr; */
+  /* grid-template-columns: 1fr 1fr; */
+
+  /* Reto 3.1 */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: repeat(2, 330px); */
+
+  /* Reto 3.2 */
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+
+.feature-art{
+  background-color: lightcyan;
+  margin: 10px;
+  width: 40%;
+  height: 50px;
 }

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    /*flex-direction: column;
+    flex-direction: row;*/
+    /*flex-wrap: wrap;
+    flex-wrap: nowrap;*/
+    background-color: blue;
+}
+
+.item {
+    background-color: gray;
+    width: 30%;
+    height: 30px;
+}
+
+.main{
+    display: grid;
+    width: 600px;
+    background-color: black;
+
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
