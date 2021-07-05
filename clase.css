@@ -62,11 +62,11 @@ li {
   height: 100%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   color: #025157;
-}
+} */
 
 .menu-item {
   display: inline;
@@ -233,13 +233,21 @@ li {
   height: 100%;
 }
 
+/* .carouselExampleCaptions {
+  margin-bottom: 100px;
+} */
+
+.carousel-inner {
+  margin-bottom: 100px;
+}
+
 /* Sesion 5 */
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
+  /* .navbar,
   .actions {
     display: none;
-  }
+  } */
 
   main {
     margin-top: 130px;
